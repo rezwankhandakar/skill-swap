@@ -10,7 +10,7 @@ const ForgotPassword = () => {
 
   useEffect(() => {
     if (location.state?.email) {
-      setEmail(location.state.email); // Pre-fill email if passed from login page
+      setEmail(location.state.email);
     }
   }, [location.state]);
 
@@ -21,7 +21,7 @@ const ForgotPassword = () => {
     resetPassword(email)
       .then(() => {
         toast.success("Password reset email sent!");
-        // Redirect to Gmail
+        
         window.open("https://mail.google.com/", "_blank");
       })
       .catch((err) => toast.error("Failed to send reset email"));
