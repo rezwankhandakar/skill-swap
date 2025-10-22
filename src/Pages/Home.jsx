@@ -130,6 +130,8 @@ import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 import HeroSlider from '../Component/HeroSlider';
 
+
+
 const Home = () => {
   const [skills, setSkills] = useState([]);
   const [providers, setProviders] = useState([]);
@@ -180,6 +182,7 @@ const Home = () => {
           ))}
         </div>
       </section>
+      
 
       {/* Top Rated Providers Section */}
 <section className="bg-gray-100 py-16">

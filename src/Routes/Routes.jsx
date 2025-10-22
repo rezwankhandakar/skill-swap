@@ -4,8 +4,10 @@ import Root from '../Root/Root';
 import ErrorPage from '../Pages/ErrorPage';
 import Home from '../Pages/Home';
 import Details from '../Pages/Details';
-import Login from '../Pages/Login';
+import ForgotPassword from '../Pages/ForgotPassword ';
+import MyProfile from '../Pages/MyProfile ';
 import Signup from '../Pages/Signup ';
+import Login from '../Pages/Login';
 
 export const router = createBrowserRouter([
   {
@@ -24,12 +26,20 @@ export const router = createBrowserRouter([
         },
         {
              path: "/login",
-             element: <Login />,
+             Component: Login
         },
         {
            path: "/signup",
-           element: <Signup />,
+           Component: Signup
         },
+        {
+            path: "/myProfile",
+            Component: MyProfile
+        },
+        {
+            path: "/forgatePassword",
+            Component: ForgotPassword
+        }
     ]
   },
 ]);
