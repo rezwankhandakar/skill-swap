@@ -1,0 +1,74 @@
+[
+  {
+    "skillId": 1,
+    "skillName": "Beginner Guitar Lessons",
+    "providerName": "Alex Martin",
+    "providerEmail": "alex@skillswap.com",
+    "price": 20,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Acoustic guitar classes for complete beginners.",
+    "image": "https://i.ibb.co.com/ZRTTNGxM/images-2.jpg",
+    "category": "Music"
+  },
+  {
+    "skillId": 2,
+    "skillName": "Spoken English Practice",
+    "providerName": "Sara Hossain",
+    "providerEmail": "sara@skillswap.com",
+    "price": 10,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "Conversational English sessions for non-native speakers.",
+    "image": "https://i.ibb.co.com/VpzJSdzr/images-1.jpg",
+    "category": "Language"
+  },
+  {
+    "skillId": 3,
+    "skillName": "Digital Marketing Basics",
+    "providerName": "John Lee",
+    "providerEmail": "john@skillswap.com",
+    "price": 15,
+    "rating": 4.7,
+    "slotsAvailable": 4,
+    "description": "Learn social media marketing, SEO, and online branding.",
+    "image": "https://i.ibb.co.com/kggVddcf/images-3.jpg",
+    "category": "Marketing"
+  },
+  {
+    "skillId": 4,
+    "skillName": "Photography for Beginners",
+    "providerName": "Emily Clark",
+    "providerEmail": "emily@skillswap.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Learn to take stunning photos and understand camera settings.",
+    "image": "https://i.ibb.co.com/G4JsH91k/download-1.jpg",
+    "category": "Photography"
+  },
+  {
+    "skillId": 5,
+    "skillName": "Web Development 101",
+    "providerName": "Michael Smith",
+    "providerEmail": "michael@skillswap.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "HTML, CSS, JavaScript, and basic React development.",
+    "image": "https://i.ibb.co.com/N6P4hrPy/images-4.jpg",
+    "category": "Development"
+  },
+  {
+    "skillId": 6,
+    "skillName": "Graphic Design Fundamentals",
+    "providerName": "Olivia Brown",
+    "providerEmail": "olivia@skillswap.com",
+    "price": 18,
+    "rating": 4.6,
+    "slotsAvailable": 4,
+    "description": "Learn Adobe Photoshop, Illustrator, and visual design principles.",
+    "image": "https://i.ibb.co.com/ch2FVm7w/images-2.png",
+    "category": "Design"
+  }
+]
