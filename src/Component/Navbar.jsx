@@ -18,16 +18,7 @@ const Navbar = () => {
       >
         Home
       </NavLink>
-      <NavLink
-        to="/skills"
-        className={({ isActive }) =>
-          `font-medium transition ${
-            isActive ? "text-blue-600" : "text-gray-600 hover:text-blue-500"
-          }`
-        }
-      >
-        All Skills
-      </NavLink>
+     
       <NavLink
         to="/myProfile"
         className={({ isActive }) =>
@@ -56,6 +47,7 @@ const Navbar = () => {
         {user ? (
           <div className="flex items-center gap-3">
             {/* Avatar with tooltip on left */}
+            <Link to="/myProfile">
             <div className="relative group">
               <img
                 src={user.photoURL || "https://i.ibb.co/2FxYp8v/default-avatar.png"}
@@ -66,6 +58,7 @@ const Navbar = () => {
                 {user.displayName || "No Name"}
               </span>
             </div>
+            </Link>
 
             <button
               onClick={logOut}
