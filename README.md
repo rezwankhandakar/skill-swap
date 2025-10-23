@@ -1,6 +1,6 @@
 # SkillSwap
 
-**Live URL:** [Your Live Site URL](#)
+**Live URL:** [https://friendly-beignet-c0b80b.netlify.app/]
 
 ## Project Purpose
 SkillSwap is a platform where users can share, learn, and exchange different skills with each other. Users can sign up, create a profile, update their details, and connect with others to improve or teach new skills.  
