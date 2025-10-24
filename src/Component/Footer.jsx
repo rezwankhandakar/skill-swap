@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="bg-gray-100 text-gray-700">
   <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8">
     
-    {/* Brand Section */}
+  
     <div>
       <h2 className="text-2xl font-bold text-blue-600 mb-3">
         Skill<span className="text-orange-500">Swap</span>
@@ -45,7 +45,6 @@ const Footer = () => {
     </div>
   </div>
 
-  {/* Bottom Bar */}
   <div className="border-t border-gray-300 text-center py-4 text-sm text-gray-500">
     © 2025 SkillSwap | All Rights Reserved | <a href="#" className="hover:text-blue-500">Privacy Policy</a>
   </div>
